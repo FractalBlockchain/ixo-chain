@@ -1,0 +1,12 @@
+*.gem
+
+/.bundle
+
+/log/*
+/tmp/*
+
+.byebug_history
+
+/.env*.local
+
+/coverage
