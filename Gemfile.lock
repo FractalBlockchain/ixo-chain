@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/FractalBlockchain/hex
+  revision: ea4bb942a0e20eb991469c17683e288f5f623720
+  specs:
+    hex (1.0)
+
 PATH
   remote: .
   specs:
@@ -9,6 +15,7 @@ GEM
     ast (2.4.0)
     base58 (0.2.3)
     ed25519 (1.2.4)
+    jaro_winkler (1.5.1)
     jaro_winkler (1.5.1-x86_64-darwin-17)
     parallel (1.12.1)
     parser (2.5.1.2)
@@ -32,6 +39,7 @@ PLATFORMS
 DEPENDENCIES
   base58
   ed25519
+  hex!
   ixo_chain!
   rubocop
 
