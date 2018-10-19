@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = "Interface to the ixo blockchain"
   s.authors     = ["Fractal Blockchain GmbH"]
   s.email       = "julio@frctls.com"
-  s.files       = ["lib/ixo_chain.rb", Dir["lib/ixo_chain/*.rb"]].flatten
+  s.files       = ["lib/ixo_chain.rb", Dir["lib/**/*.rb"]].flatten
   s.homepage    = "http://rubygems.org/gems/ixo_chain"
   s.license     = "MIT"
 end
